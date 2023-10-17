@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(84, 127, 247);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 630px;
+    height: max-content;
+    background: #fff;
+    padding: 0.6em;
+    border-radius: 10px;
+    box-shadow: -1px -5px 32px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 1.3rem;
+}
+
+.btn {
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 3px 3px 3px;
+    color: rgb(84, 127, 247);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn.active {
+    border-bottom-color: rgb(84, 127, 247);
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.animal {
+    background: rgb(218, 218, 218);
+    padding: 6px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    cursor: default;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-right: 6px solid rgb(255, 0, 0);
+}
